@@ -1,0 +1,26 @@
+aws:
+  access-key: UPPERCASEWITH1234NUMBERS
+  secret-key: lower&UPPERcasewith123Number$andSpecialCharacters$££$%
+  bucket: data.noths.com
+  key-prefix: screenshots
+
+sites:
+    - file-prefix: homepage
+      file-name: homepage
+      target-site: 'http://www.notonthehighstreet.com' 
+    - file-prefix: competitor
+      file-name: etsy
+      target-site: 'http://www.etsy.com' 
+    - file-prefix: competitor
+      file-name: ebay
+      target-site: 'http://www.ebay.co.uk' 
+    - file-prefix: competitor
+      file-name: johnlewis
+      target-site: 'http://www.johnlewis.com' 
+    - file-prefix: competitor
+      file-name: amazon
+      target-site: 'http://www.amazon.co.uk' 
+    - file-prefix: competitor
+      file-name: moonpig
+      target-site: 'http://www.moonpig.com' 
+
